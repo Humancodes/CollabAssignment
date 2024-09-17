@@ -14,4 +14,47 @@
 
 /* NAV 2 kuldeeo styling */
 
+.navbar2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-block: 40px;
+}
+
+.navbar2 .logo img {
+  width: 150px;
+}
+
+.navbar2 ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar2 .search input{
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  outline: none;
+  padding-block: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  padding-left: 25px;
+}
+
+.navbar2 .btn {
+  background: #c40c2f;
+  padding-inline: 30px;
+  padding-block: 8px;
+  border-radius: 30px;
+}
+
+.navbar2 .btn button {
+  background: #c40c2f;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: 900;
+}
+
 /* Cards Arnab styling */
